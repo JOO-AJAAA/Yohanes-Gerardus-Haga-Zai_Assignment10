@@ -1,7 +1,4 @@
-## Catatan
-Bang pakai live server nanti jalankan ini yak. Atau kalau jalankan via github jangan di reload terus pas ada pesan 404 not found coba tekan navigasi lain dulu
-
-# BEST - Belajar CSS HTML
+# BEST - Belajar Framework CSS + HTML
 
 Aplikasi web sederhana untuk builder web dengan sistem routing SPA (Single Page Application).
 
