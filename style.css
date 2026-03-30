@@ -1,0 +1,87 @@
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  margin: 0;
+  background: #f6f7fb;
+}
+
+/* Sedikit polish untuk brand */
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+/* Konten utama */
+#app h2 {
+  margin-bottom: 0.75rem;
+}
+
+#app p {
+  color: #495057;
+}
+
+/* Kartu/section spacing (dipakai di template routes) */
+.page-card {
+  border: 0;
+  border-radius: 14px;
+}
+
+.page-card .card-body {
+  padding: 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .page-card .card-body {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #app {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .page-card {
+    border-radius: 12px;
+  }
+}
+
+/* Form */
+form .form-label {
+  font-weight: 600;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Table (About) */
+.table td {
+  vertical-align: top;
+}
+
+.about-key {
+  width: 220px;
+}
+
+@media (max-width: 576px) {
+  .about-key {
+    width: auto;
+  }
+}
+
+/* Map */
+.map-frame {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* Active nav state (ditoggle via JS) */
+.navbar .nav-link.active {
+  font-weight: 700;
+}
